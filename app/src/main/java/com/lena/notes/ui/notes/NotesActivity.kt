@@ -86,6 +86,9 @@ class NotesActivity : AppCompatActivity(), PopupMenu.OnMenuItemClickListener, No
 
         viewModel.notesLiveData.removeObservers(this)
 
+        binding.searchView.setQuery("", false)
+        binding.searchView.clearFocus()
+
         when (item?.itemId) {
             R.id.mi_from_new_to_old -> {
                 viewModel.getNotesOrderByDESC()
