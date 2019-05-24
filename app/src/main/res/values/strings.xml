@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Заметки</string>
+
+    <string name="hint_input_text">input text...</string>
+
+    <string name="tv_list_is_empty">Список пуст</string>
+
+    <string name="ad_note_delete_confirm">Вы действительно хотите удалить заметку</string>
+    <string name="ad_note_delete">Удаление заметки</string>
+    <string name="ad_yes">Да</string>
+    <string name="ad_no">Нет</string>
+    <string name="ad_cancel">Отмена</string>
+
+    <string name="toast_note_deleted">Заметка успешно удалена</string>
+
+    <string name="title_share">Поделиться заметкой</string>
+
+    <string name="mi_from_new_to_old">От новых к старым</string>
+    <string name="mi_from_old_to_new">От старых к новым</string>
+</resources>
